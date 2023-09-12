@@ -21,45 +21,47 @@
 
 
 # Подготовка среды  
+
 ## Git
-    - Clone repsoitory 
+    * Clone repsoitory 
         [git clone https://github.com/kerimov-erbol/hotel-web.git]
-    - create .gitignore file
+    * create .gitignore file
+
 ## npm
-    - Initialize npm (node package manager)  and create package.json file
+    * Initialize npm (node package manager)  and create package.json file
         [npm init]
 
-    - Install gulp (a toolkit to automate & enhance your workflow) 
-        -   Install gulp globaly 
+    * Install gulp (a toolkit to automate & enhance your workflow) 
+        *   Install gulp globaly 
             [npm install --global gulp-cli]    
-        -   Install the gulp package in your devDependencies                              
+        *   Install the gulp package in your devDependencies                              
             [npm install --save-dev gulp]
     
 ### Gulp 
 
 #### Scss
-    -   gulp-plumber +
-    -   sourcemap+
-    -   gulp-sass+
-    -   psotscc
-        -   autoprefixer <!--   -->  
-        -   csso     - <!--   -->       <!-- Оптимизаци/Минимизация css  -->
-        -   rename  -                           <!-- Переименоавеие минифицированного кода  -->
+    *   gulp-plumber +
+    *   sourcemap+
+    *   gulp-sass+
+    *   psotscc
+        *   autoprefixer <!--   -->  
+        *   csso     - <!--   -->       <!-- Оптимизаци/Минимизация css  -->
+        *   rename  -                           <!-- Переименоавеие минифицированного кода  -->
 
 #### Проверка кода линтерами (stylelint, ESLint).
-    -   slylelint 
+    *   slylelint 
     
 #### Browsersync, автоматическое обновление страницы при разработке.
-    -   browser-sync
+    *   browser-sync
 
 #### Оптимизация изображений.
-    -   gulp-imagemin
+    *   gulp-imagemin
 
 #### Создание webp
-    -   gulp-webp 
+    *   gulp-webp 
 
 #### Собираем svg спрайт
-    -   gulp-store
+    *   gulp-store
 
 
 
