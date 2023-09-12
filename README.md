@@ -1,5 +1,19 @@
 # hotel-web
-# 1.Preparations 
+# Основные возможности и используемые технологии
+
+* Система сборки [Gulp](https://gulpjs.com/)
+* Оптимизация изображений.
+* Генерация PNG- и SVG-спрайтов.
+* Шаблонизация с помощью [Pug](https://pugjs.org/).
+* CSS-препроцессор [SCSS](http://sass-lang.com/) и [Autoprefixer](https://autoprefixer.github.io/ru/).
+* ES6 и [jQuery](https://jquery.com/).
+* Встроенное определение устройства, браузера и операционной системы пользователя.
+* Проверка кода линтерами ([pug-lint](https://www.npmjs.com/package/pug-lint), [stylelint](https://stylelint.io/), [ESLint](http://eslint.org/)).
+* [Browsersync](https://www.browsersync.io/), автоматическое обновление страницы при разработке.
+* Возможность быстро создать архив проекта.
+* Множество дополнительных параметров сборки.
+
+# Подготовка среды  
 ## Git
     - Clone repsoitory 
         [git clone https://github.com/kerimov-erbol/hotel-web.git]
@@ -15,3 +29,37 @@
             [npm install --save-dev gulp]
     
 ## Gulp 
+### Scss
+
+
+
+# Основные возможности и используемые технологии
+- Система сборки Gulp
+  - gulp
+  - Scss препроцессор
+    - gulp-plumber +
+    - sourcemap+
+    - gulp-sass+
+    - psotscc
+      - autoprefixer <!--   -->  
+      -csso     - <!--   -->       <!-- Оптимизаци/Минимизация css  -->
+      -rename  -                           <!-- Переименоавеие минифицированного кода  -->
+Проверка кода линтерами (pug-lint, stylelint, ESLint).
+  -slylelint -
+Оптимизация изображений.
+    -gulp-imagemin -
+
+Создание webp
+  - gulp-webp -
+Собираем svg спрайт
+  - gulp-store-
+
+- Browsersync, автоматическое обновление страницы при разработке.
+  - browser-sync+
+
+
+-   Генерация PNG- и SVG-спрайтов.
+
+-   Встроенное определение устройства, браузера и операционной системы пользователя.
+
+-
