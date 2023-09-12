@@ -2,7 +2,8 @@
 # 1.Preparations 
     - Clone repsoitory 
         [git clone https://github.com/kerimov-erbol/hotel-web.git]
-        
+        - create .gitignore
+
     - Initialize npm (node package manager)  and create package.json file
         [npm init]
 
@@ -11,3 +12,5 @@
             [npm install --global gulp-cli]    
         -   Install the gulp package in your devDependencies                              
             [npm install --save-dev gulp]
+    
+    - 
