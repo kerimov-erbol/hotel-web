@@ -1,0 +1,16 @@
+/* здесь используйте глобальные селекторы img, body, html и так далее*/
+
+$bgcolor: lightblue;
+$textcolor: rgb(0, 0, 0);
+$fontsize: 18px;
+
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  line-height: 24px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: $fontsize;
+
+}
+

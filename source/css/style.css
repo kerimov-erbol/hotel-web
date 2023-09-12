@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* GLOBAL */
+/* здесь используйте глобальные переменные */
+/* здесь используйте глобальные селекторы img, body, html и так далее*/
+/* Use the variables */
+body {
+  background-color: lightblue;
+  color: rgb(0, 0, 0);
+  line-height: 24px;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 18px;
+}
+
+/* здесь подключите шрифты*/
+/* BLOCKS */
+.main-page {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+.header {
+  outline: 1px solid black;
+}
+/*# sourceMappingURL=style.css.map */

@@ -40,7 +40,7 @@
 ### Gulp 
 
 #### Scss
-*   gulp-plumber +
+<!-- describe how it works -->
 *   sourcemap+
 *   gulp-sass+
 *   psotscc
@@ -63,6 +63,19 @@
 #### Собираем svg спрайт
     *   gulp-store
 
+
+
+
+
+
+
+
+# Процесс верски 
+
+## BEM
+*  cоздание больших блоков 
+   *  микс больших и маленьких блоков
+      *   Работа над маленкими блоками
 
 
 
