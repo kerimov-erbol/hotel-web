@@ -2,16 +2,23 @@
 # Основные возможности и используемые технологии
 
 * Система сборки [Gulp](https://gulpjs.com/)
-* Оптимизация изображений.
-* Генерация PNG- и SVG-спрайтов.
-* Шаблонизация с помощью [Pug](https://pugjs.org/).
+
 * CSS-препроцессор [SCSS](http://sass-lang.com/) и [Autoprefixer](https://autoprefixer.github.io/ru/).
-* ES6 и [jQuery](https://jquery.com/).
+
+* Оптимизация изображений.
+
+* Генерация PNG- и SVG-спрайтов.
+
 * Встроенное определение устройства, браузера и операционной системы пользователя.
-* Проверка кода линтерами ([pug-lint](https://www.npmjs.com/package/pug-lint), [stylelint](https://stylelint.io/), [ESLint](http://eslint.org/)).
+
+* Проверка кода линтерами [stylelint](https://stylelint.io/), [ESLint](http://eslint.org/)).
+
 * [Browsersync](https://www.browsersync.io/), автоматическое обновление страницы при разработке.
+
 * Возможность быстро создать архив проекта.
+
 * Множество дополнительных параметров сборки.
+
 
 # Подготовка среды  
 ## Git
@@ -29,7 +36,15 @@
             [npm install --save-dev gulp]
     
 ## Gulp 
-### Scss
+
+### Scssё
+    -   gulp-plumber +
+    -   sourcemap+
+    -   gulp-sass+
+    -   psotscc
+        -   autoprefixer <!--   -->  
+        -   csso     - <!--   -->       <!-- Оптимизаци/Минимизация css  -->
+        -   rename  -                           <!-- Переименоавеие минифицированного кода  -->
 
 
 
