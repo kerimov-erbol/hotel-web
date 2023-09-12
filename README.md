@@ -35,9 +35,9 @@
         -   Install the gulp package in your devDependencies                              
             [npm install --save-dev gulp]
     
-## Gulp 
+### Gulp 
 
-### Scss
+#### Scss
     -   gulp-plumber +
     -   sourcemap+
     -   gulp-sass+
@@ -46,19 +46,22 @@
         -   csso     - <!--   -->       <!-- Оптимизаци/Минимизация css  -->
         -   rename  -                           <!-- Переименоавеие минифицированного кода  -->
 
-### Проверка кода линтерами (stylelint, ESLint).
+#### Проверка кода линтерами (stylelint, ESLint).
     -   slylelint 
     
-### Browsersync, автоматическое обновление страницы при разработке.
+#### Browsersync, автоматическое обновление страницы при разработке.
     -   browser-sync
 
-### Оптимизация изображений.
+#### Оптимизация изображений.
     -   gulp-imagemin
 
-### Создание webp
+#### Создание webp
     -   gulp-webp 
 
-### Собираем svg спрайт
+#### Собираем svg спрайт
     -   gulp-store
+
+
+
 
 
