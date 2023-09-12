@@ -23,33 +23,33 @@
 # Подготовка среды  
 
 ## Git
-    * Clone repsoitory 
-        [git clone https://github.com/kerimov-erbol/hotel-web.git]
-    * create .gitignore file
+* Clone repsoitory 
+    [git clone https://github.com/kerimov-erbol/hotel-web.git]
+* create .gitignore file
 
 ## npm
-    * Initialize npm (node package manager)  and create package.json file
-        [npm init]
+* Initialize npm (node package manager)  and create package.json file
+    [npm init]
 
-    * Install gulp (a toolkit to automate & enhance your workflow) 
-        *   Install gulp globaly 
-            [npm install --global gulp-cli]    
-        *   Install the gulp package in your devDependencies                              
-            [npm install --save-dev gulp]
+* Install gulp (a toolkit to automate & enhance your workflow) 
+    *   Install gulp globaly 
+        [npm install --global gulp-cli]    
+    *   Install the gulp package in your devDependencies                              
+        [npm install --save-dev gulp]
     
 ### Gulp 
 
 #### Scss
-    *   gulp-plumber +
-    *   sourcemap+
-    *   gulp-sass+
-    *   psotscc
-        *   autoprefixer <!--   -->  
-        *   csso     - <!--   -->       <!-- Оптимизаци/Минимизация css  -->
-        *   rename  -                           <!-- Переименоавеие минифицированного кода  -->
+*   gulp-plumber +
+*   sourcemap+
+*   gulp-sass+
+*   psotscc
+    *   autoprefixer <!--   -->  
+    *   csso     - <!--   -->       <!-- Оптимизаци/Минимизация css  -->
+    *   rename  -                           <!-- Переименоавеие минифицированного кода  -->
 
 #### Проверка кода линтерами (stylelint, ESLint).
-    *   slylelint 
+*   slylelint 
     
 #### Browsersync, автоматическое обновление страницы при разработке.
     *   browser-sync
