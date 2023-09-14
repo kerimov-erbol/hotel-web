@@ -1,16 +1,28 @@
-/* здесь используйте глобальные селекторы img, body, html и так далее*/
-
-$bgcolor: lightblue;
-$textcolor: rgb(0, 0, 0);
-$fontsize: 18px;
-
-/* Use the variables */
 body {
-  background-color: $bgcolor;
-  color: $textcolor;
-  line-height: 24px;
-  font-family: "DM Sans", Arial, sans-serif;
-  font-size: $fontsize;
+   margin: 0;
+   padding: 0;
+   // font-size: 14px;
+   // line-height: 24px;
+   font-family: "DM Sans", Arial, sans-serif;
+  
+   //  font-family: "Allerta Stencil", Arial, sans-serif;
+   // font-weight: 700;
+   // color: #fff;
+   text-transform: uppercase;
+   // background-color: #ffffff;
 
 }
 
+img {
+   // https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/
+   max-width: 100%;         //чобы картинка не была болше чем ее родитель
+   height: auto;            //чтобы сохранить соотношение
+
+} 
+
+// Чтобы все элементы при рачете высоты и ширины расчитываоли по BORDER, это просто удобно
+*,*::before, *::after{
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   }
