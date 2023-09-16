@@ -8,7 +8,6 @@ body {
    //  font-family: "Allerta Stencil", Arial, sans-serif;
    // font-weight: 700;
    // color: #fff;
-   text-transform: uppercase;
    // background-color: #ffffff;
 
 }
@@ -26,3 +25,7 @@ img {
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    }
+
+li{
+   list-style-type: none;
+}

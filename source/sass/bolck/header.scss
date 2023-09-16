@@ -1,0 +1,48 @@
+@use '../modules/_modules-index'as *;
+
+.header{
+   width: 1248px;
+   min-height: 42px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   outline: 1px solid black;
+
+
+   
+}
+.header--logo{
+   width: 135px;
+}
+
+.header--nav{
+   display: flex;
+   align-items: center;
+   min-width: 510px;
+   justify-content: space-between;
+}
+
+.header--nav-list{
+   display: flex;
+   min-width: 276px;
+   justify-content:space-between ;
+}
+.header--nav-item{
+   margin: auto 7px;
+}
+
+.header--nav-seporator{
+   width: 1px;
+   height: 14px;
+   background-color: black;
+}
+
+.header--nav-list-icon{
+   min-width: 145px ;
+   padding: 0px;
+   display: flex;
+   justify-content: space-between;
+}
+.header--nav-list-icon-item{
+   margin: auto 7px;
+}

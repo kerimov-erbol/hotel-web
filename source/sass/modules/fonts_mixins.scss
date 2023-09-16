@@ -4,35 +4,33 @@
    font-weight: 500;
    font-size: 35px;
    // line-height: ;
-   // letter-spacing: ;
 
 }
 @mixin desktop-heading-2{
    font-weight: 400;
    font-size: 26px;
    line-height: 35px;
-   // letter-spacing: ;
 
 }
 @mixin desktop-heading-3{
    font-weight: 400;
    font-size: 20px;
-   line-height: 26;
-   // letter-spacing: ;
+   line-height: 26px;
+
 
 }
 @mixin desktop-heading-4{
    font-weight: 500;
    font-size: 20px;
    line-height: 20px;
-   // letter-spacing: ;
+
 
 }
 @mixin desktop-heading-5{
    font-weight: 400;
    font-size: 16px;
    line-height: 27px;
-   letter-spacing: 10;
+
 
 }
 
