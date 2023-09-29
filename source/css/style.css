@@ -118,12 +118,6 @@ li {
   outline: 1px solid black;
 }
 
-p {
-  margin: 0px;
-  width: auto;
-  height: auto;
-}
-
 .header {
   width: 1248px;
   min-height: 42px;
